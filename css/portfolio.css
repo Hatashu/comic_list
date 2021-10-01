@@ -127,3 +127,6 @@ hr{
 .blue-line{
     background-color: #7BC3D1;
 }
+.uncomp{
+    filter: grayscale(100%);
+}
