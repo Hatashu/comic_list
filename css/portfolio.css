@@ -128,5 +128,5 @@ hr{
     background-color: #7BC3D1;
 }
 .uncomp{
-    filter: sepia(100%);
+    filter: sepia(70%);
 }
