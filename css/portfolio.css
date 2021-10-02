@@ -5,7 +5,6 @@ body{
 }
 /*top関係*/
 .top h1 {
-    font-size: 70px;
     letter-spacing: 5px;
     background-color: #eeeeeebb;
 }
@@ -24,12 +23,16 @@ main img{
     height: 300px;
 }
 .about{
-    padding-top: 50px;
+    padding:10px 0 ;
 }
 .about table{
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    font-size: 20px;
+}
+.dou{
+    text-align: center !important;
 }
 #ProN{
     padding-top: 50px;
@@ -48,6 +51,7 @@ main img{
 /*footer関係*/
 footer{
     background-color: #eeeeee;
+    text-align: center;
 }
 /*popup表示させたいコンテンツのレイアウトと位置*/
 #popup{
@@ -120,13 +124,13 @@ footer{
     color: #FFFFFF;
     padding: 10px;
 }
-hr{
+.line{
     width: 90%;
-    border: solid 1px;
+    border: solid 1px !important;
 }
 .blue-line{
     background-color: #7BC3D1;
 }
 .uncomp{
-    filter: sepia(70%);
+    filter: grayscale(100%);
 }
