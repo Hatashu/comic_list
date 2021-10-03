@@ -134,3 +134,7 @@ footer{
 .uncomp{
     filter: grayscale(100%);
 }
+@media (min-width:1025px)
+li.p-manga-panellist_item {
+    width: 14% !important;
+}
